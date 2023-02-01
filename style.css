@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(10, 103, 108);
+    color: black;
+    padding: 20px;
+}
+header nav a{
+    color: black;
+    font-weight: 500;
+    margin-right: 20px;
+}
+header div.Sign-up button{
+    background-color: rgb(149, 221, 209);
+    color: black;
+    font-size: medium;
+    font-weight: 550;
+    padding: 4px 12px;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline: none;
+    margin-right: 20px;
+}
+div.popup_container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    
+}
+div.popup_container div.popup{
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 350px;
+    padding: 20px 25px 20px 25px;
+    border: 2px solid rgb(10, 103, 108) ;
+}
+div.popup_container div.popup h2{
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    color: rgb(8, 70, 70);
+}
+div.popup_container div.popup h2 button{
+    background-color: transparent;
+    border: none;
+    font-weight: 550px;
+    color: black;
+    outline: none;
+    font-size: 18px;
+}
+div.popup_container div.popup input{
+    background-color: transparent;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid  rgb(8, 70, 70);
+    outline: none;
+    font-size: 18px;
+    font-weight: 550;
+    border-radius: 0px;
+    padding: 5px 0px;
+}
+div.popup_container div.popup button.login-btn{
+    font-size: 15px;
+    font-weight: 550;
+    background-color:rgb(149, 221, 209);
+    color: black;
+    padding: 4px 10px;
+    border: 2px solid  rgb(8, 70, 70);;
+    outline: none;
+    margin-top: 5px;
+}
+div.popup_container div.popup button.register-btn{
+    font-size: 15px;
+    font-weight: 550;
+    background-color:rgb(149, 221, 209);
+    color: black;
+    padding: 4px 10px;
+    border: 2px solid  rgb(8, 70, 70);;
+    outline: none;
+    margin-top: 5px;
+}
+div.user{
+   
+    font-weight: 550;
+    background-color:rgb(149, 221, 209);
+    color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    
+}
+div.user a{
+    color: black;
+}
+
+h3.box{
+    background-color: rgb(149, 221, 209);;
+    font-weight: 600;
+    width: 700px;
+    margin: 0 auto;
+    padding: 8px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+h3.Copybtn{
+    background-color: transparent;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid  rgb(8, 70, 70);
+    outline: none;
+    font-size: 18px;
+    font-weight: 550;
+    border-radius: 0px;
+    padding: 5px 0px;
+}
